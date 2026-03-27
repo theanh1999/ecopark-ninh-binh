@@ -247,10 +247,25 @@
 
         @media (max-width: 768px) {
             .section-padding { padding: 70px 0; }
+            .hero { padding-top: 100px; }
+            .hero-badge-main { margin-bottom: 16px; font-size: 0.7rem; padding: 8px 16px; }
+            .hero h1 { font-size: 1.8rem; }
+            .hero-text { font-size: 1rem; }
             .hero-info-card { margin-top: 40px; }
             .overview-img-wrapper img { height: 300px; }
             .cta-banner { padding: 40px 24px; }
             .contact-form-wrapper { padding: 28px 20px; }
             .overview-features { grid-template-columns: 1fr; }
             .hero-stats-row { gap: 24px; }
+            .hero-stat-item .number { font-size: 1.8rem; }
+            .navbar-eco .navbar-brand { font-size: 1.2rem; }
+        }
+        @media (max-width: 480px) {
+            .hero { padding-top: 90px; }
+            .hero h1 { font-size: 1.5rem; }
+            .hero-badge-main { font-size: 0.65rem; padding: 6px 14px; letter-spacing: 1px; }
+            .hero-text { font-size: 0.9rem; }
+            .hero-stats-row { gap: 16px; }
+            .hero-stat-item .number { font-size: 1.5rem; }
+            .navbar-eco .navbar-brand { font-size: 1.1rem; }
         }
