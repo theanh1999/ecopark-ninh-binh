@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://ecoparkninhbinh.org/sitemap.xml
+
+# Only allow indexing on the main domain
+# The workers.dev subdomain is blocked via _headers and meta tag

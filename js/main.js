@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Noindex for non-primary domains (workers.dev, pages.dev)
+    if (window.location.hostname !== 'ecoparkninhbinh.org' && window.location.hostname !== 'www.ecoparkninhbinh.org') {
+        const meta = document.querySelector('meta[name="robots"]');
+        if (meta) meta.setAttribute('content', 'noindex, nofollow');
+    }
+
     // AOS — Animate On Scroll
     if (typeof AOS !== 'undefined') AOS.init({ duration: 800, easing: 'ease-out-cubic', once: true, offset: 60 });
 
