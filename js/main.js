@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         emailjs.send(EMAILJS_SID, EMAILJS_TID, params)
             .then(() => { form.style.display = 'none'; formSuccess.classList.add('show'); })
             .catch(() => {
-                alert('Có lỗi. Vui lòng gọi 0966 271 887.');
+                alert('Có lỗi. Vui lòng gọi 0912 345 678.');
                 submitBtn.disabled = false;
                 submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Gửi đăng ký tư vấn';
             });
