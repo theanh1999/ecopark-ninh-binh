@@ -118,6 +118,13 @@
         .overview-feature-card h5 { font-size: 0.9rem; font-weight: 700; color: var(--text-dark); margin-bottom: 2px; }
         .overview-feature-card p { font-size: 0.8rem; color: var(--text-muted); margin: 0; }
 
+        /* Why Choose */
+        .why-card { background: var(--warm-bg); border-radius: var(--radius-lg); padding: 36px; border: 1px solid var(--warm-border); transition: all 0.4s; height: 100%; }
+        .why-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); border-color: var(--primary-lighter); }
+        .why-icon { width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, var(--primary), var(--primary-light)); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 1.4rem; color: #fff; box-shadow: var(--shadow-green); }
+        .why-card h4 { font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-dark); margin-bottom: 12px; font-weight: 700; }
+        .why-card p { font-size: 0.9rem; color: var(--text-body); margin: 0; line-height: 1.7; }
+
         /* Developer cards */
         .dev-card { background: #fff; border-radius: var(--radius-lg); padding: 40px; text-align: center; border: 1px solid var(--warm-border); transition: all 0.4s; height: 100%; }
         .dev-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
