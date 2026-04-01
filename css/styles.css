@@ -47,7 +47,8 @@
         /* Navbar */
         .navbar-eco { padding: 16px 0; transition: all 0.4s; background: transparent; position: fixed; top: 0; left: 0; right: 0; z-index: 1050; }
         .navbar-eco.scrolled { background: rgba(255,255,255,0.97); backdrop-filter: blur(20px); padding: 10px 0; box-shadow: 0 2px 20px rgba(0,0,0,0.06); }
-        .navbar-eco .navbar-brand { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; color: #fff; }
+        .navbar-eco .navbar-brand { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; color: #fff; display: flex; align-items: center; gap: 10px; }
+        .navbar-logo { width: 40px; height: 40px; object-fit: contain; border-radius: 8px; background: #fff; padding: 2px; }
         .navbar-eco.scrolled .navbar-brand { color: var(--text-dark); }
         .navbar-eco .navbar-brand span { color: #81C784; }
         .navbar-eco.scrolled .navbar-brand span { color: var(--primary); }
