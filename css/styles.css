@@ -268,6 +268,7 @@
         .form-success p { color: var(--text-muted); }
 
         @media (max-width: 768px) {
+            html, body { overflow-x: hidden; max-width: 100vw; }
             .section-padding { padding: 70px 0; }
             .hero { padding-top: 100px; }
             .hero-badge-main { margin-bottom: 16px; font-size: 0.7rem; padding: 8px 16px; }
@@ -281,6 +282,10 @@
             .hero-stats-row { gap: 24px; }
             .hero-stat-item .number { font-size: 1.8rem; }
             .navbar-eco .navbar-brand { font-size: 1.2rem; }
+            .floating-cta { right: 12px; bottom: 80px; gap: 10px; }
+            .float-btn { width: 46px; height: 46px; font-size: 1.1rem; }
+            .float-btn.zalo svg { width: 46px; height: 46px; }
+            .back-to-top { right: 16px; }
         }
         @media (max-width: 480px) {
             .hero { padding-top: 90px; }
